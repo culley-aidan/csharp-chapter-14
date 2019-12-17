@@ -30,6 +30,9 @@
         {
             this.lblHeading = new System.Windows.Forms.Label();
             this.btnRecords = new System.Windows.Forms.Button();
+            this.lblInvoice = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
+            this.lblAmount = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblHeading
@@ -51,11 +54,41 @@
             this.btnRecords.Text = "View\r\nrecords\r\n";
             this.btnRecords.UseVisualStyleBackColor = true;
             // 
+            // lblInvoice
+            // 
+            this.lblInvoice.AutoSize = true;
+            this.lblInvoice.Location = new System.Drawing.Point(27, 88);
+            this.lblInvoice.Name = "lblInvoice";
+            this.lblInvoice.Size = new System.Drawing.Size(42, 13);
+            this.lblInvoice.TabIndex = 2;
+            this.lblInvoice.Text = "Invoice";
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(27, 117);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(35, 13);
+            this.lblName.TabIndex = 3;
+            this.lblName.Text = "Name";
+            // 
+            // lblAmount
+            // 
+            this.lblAmount.AutoSize = true;
+            this.lblAmount.Location = new System.Drawing.Point(27, 143);
+            this.lblAmount.Name = "lblAmount";
+            this.lblAmount.Size = new System.Drawing.Size(43, 13);
+            this.lblAmount.TabIndex = 4;
+            this.lblAmount.Text = "Amount";
+            // 
             // ViewInvoices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblAmount);
+            this.Controls.Add(this.lblName);
+            this.Controls.Add(this.lblInvoice);
             this.Controls.Add(this.btnRecords);
             this.Controls.Add(this.lblHeading);
             this.Name = "ViewInvoices";
@@ -69,6 +102,9 @@
 
         private System.Windows.Forms.Label lblHeading;
         private System.Windows.Forms.Button btnRecords;
+        private System.Windows.Forms.Label lblInvoice;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Label lblAmount;
     }
 }
 
