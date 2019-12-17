@@ -22,3 +22,7 @@ AccessSomeNames/.vs/AccessSomeNames/v16/.suo
 AccessSomeNames/AccessSomeNames/obj/Debug/netcoreapp3.0/AccessSomeNames.AssemblyInfo.cs
 AccessSomeNames/AccessSomeNames/obj/Debug/netcoreapp3.0/AccessSomeNames.csproj.FileListAbsolute.txt
 AccessSomeNames/.vs/AccessSomeNames/DesignTimeBuild/.dtbcache
+EnterInvoices/.vs/EnterInvoices/v16/.suo
+*.config
+EnterInvoices/EnterInvoices/obj/Debug/EnterInvoices.csproj.FileListAbsolute.txt
+*.resources
