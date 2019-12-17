@@ -34,3 +34,4 @@ TestFileAndDirectory/.vs/TestFileAndDirectory/DesignTimeBuild/.dtbcache
 TestFileAndDirectory2/.vs/TestFileAndDirectory2/v16/.suo
 TestFileAndDirectory2/TestFileAndDirectory2/Properties/AssemblyInfo.cs
 TestFileAndDirectory2/TestFileAndDirectory2/obj/Debug/TestFileAndDirectory2.csproj.FileListAbsolute.txt
+*.nyh~
