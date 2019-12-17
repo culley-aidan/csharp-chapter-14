@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace ReadNameFile
 {
@@ -6,7 +7,20 @@ namespace ReadNameFile
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FileStream file = new FileStream("Names.txt", FileMode.Open, FileAccess.Read);
+            StreamReader reader = new StreamReader(file);
+            int count = 1;
+            string name;
+            Console.WriteLine("Displaying all names");
+            name = reader.ReadLine();
+            while (name != null)
+            {
+                Console.WriteLine($"{count} {name}");
+                name = reader.ReadLine();
+                ++count;
+            }
+            reader.Close();
+            file.Close();
         }
     }
 }
