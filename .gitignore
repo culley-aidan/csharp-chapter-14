@@ -27,3 +27,6 @@ EnterInvoices/.vs/EnterInvoices/v16/.suo
 EnterInvoices/EnterInvoices/obj/Debug/EnterInvoices.csproj.FileListAbsolute.txt
 *.resources
 ViewInvoices/.vs/ViewInvoices/v16/.suo
+TestFileAndDirectory/.vs/TestFileAndDirectory/v16/.suo
+TestFileAndDirectory/TestFileAndDirectory/obj/Debug/netcoreapp3.0/TestFileAndDirectory.AssemblyInfo.cs
+TestFileAndDirectory/TestFileAndDirectory/obj/Debug/netcoreapp3.0/TestFileAndDirectory.csproj.FileListAbsolute.txt
