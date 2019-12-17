@@ -3,7 +3,7 @@ C# Programming Chapter 14
 
 ## TODO 
 - [X] - Guided - CreateNameFile
-- [ ] - Guided - ReadFileName 
+- [X] - Guided - ReadFileName 
 - [ ] - Guided - AccessSomeNames
 - [ ] - Guided - EnterInvoices 
 - [ ] - Guided - ViewInvoices
