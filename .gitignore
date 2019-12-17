@@ -31,3 +31,7 @@ TestFileAndDirectory/.vs/TestFileAndDirectory/v16/.suo
 TestFileAndDirectory/TestFileAndDirectory/obj/Debug/netcoreapp3.0/TestFileAndDirectory.AssemblyInfo.cs
 TestFileAndDirectory/TestFileAndDirectory/obj/Debug/netcoreapp3.0/TestFileAndDirectory.csproj.FileListAbsolute.txt
 TestFileAndDirectory/.vs/TestFileAndDirectory/DesignTimeBuild/.dtbcache
+TestFileAndDirectory2/.vs/TestFileAndDirectory2/v16/.suo
+TestFileAndDirectory2/TestFileAndDirectory2/Properties/AssemblyInfo.cs
+TestFileAndDirectory2/TestFileAndDirectory2/obj/Debug/TestFileAndDirectory2.csproj.FileListAbsolute.txt
+*.nyh~
