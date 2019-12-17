@@ -42,3 +42,7 @@ WriteCustomerRecords/.vs/WriteCustomerRecords/DesignTimeBuild/.dtbcache
 ReadCustomerRecords/.vs/ReadCustomerRecords/v16/.suo
 ReadCustomerRecords/ReadCustomerRecords/obj/Debug/netcoreapp3.0/ReadCustomerRecords.AssemblyInfo.cs
 ReadCustomerRecords/ReadCustomerRecords/obj/Debug/netcoreapp3.0/ReadCustomerRecords.csproj.FileListAbsolute.txt
+CustomizeAForm/.vs/CustomizeAForm/v16/.suo
+CustomizeAForm/CustomizeAForm/obj/Debug/CustomizeAForm.csproj.FileListAbsolute.txt
+RetrieveCustomizedForm/.vs/RetrieveCustomizedForm/v16/.suo
+CustomizeAForm/CustomizeAForm/Properties/AssemblyInfo.cs
