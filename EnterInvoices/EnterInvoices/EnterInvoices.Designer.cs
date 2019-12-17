@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblHeading);
             this.Name = "EnterInvoices";
-            this.Text = "nvoice Data";
+            this.Text = "Invoice Data";
             this.ResumeLayout(false);
             this.PerformLayout();
 
