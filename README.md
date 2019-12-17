@@ -7,7 +7,7 @@ C# Programming Chapter 14
 - [X] - Guided - AccessSomeNames
 - [X] - Guided - EnterInvoices 
 - [X] - Guided - ViewInvoices
-- [ ] - 1 - TestFileAndDirectory
+- [X] - 1 - TestFileAndDirectory
 - [ ] - 3 - TestFileAndDirectory2
 - [ ] - 4 - WriteCustomerRecords
 - [ ] - 5 - CustomizeAForm
