@@ -13,7 +13,7 @@ namespace WriteCustomerRecords
             int.TryParse(Console.ReadLine(), out int id);
             Console.Write("Enter Name: ");
             string name = Console.ReadLine();
-            Console.Write("Enter Amount Owed");
+            Console.Write("Enter Amount Owed: ");
             double.TryParse(Console.ReadLine(), out double owed);
             Customer tmp = new Customer(id, name, owed);
             writer.WriteLine($"{tmp.IDNumber},{tmp.Name},{tmp.AmountOwed}");
