@@ -5,7 +5,7 @@ C# Programming Chapter 14
 - [X] - Guided - CreateNameFile
 - [X] - Guided - ReadFileName 
 - [X] - Guided - AccessSomeNames
-- [ ] - Guided - EnterInvoices 
+- [X] - Guided - EnterInvoices 
 - [ ] - Guided - ViewInvoices
 - [ ] - 1 - TestFileAndDirectory
 - [ ] - 3 - TestFileAndDirectory2
