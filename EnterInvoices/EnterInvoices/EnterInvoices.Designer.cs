@@ -32,6 +32,10 @@
             this.lblNumber = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.lblAmount = new System.Windows.Forms.Label();
+            this.invoiceBox = new System.Windows.Forms.TextBox();
+            this.nameBox = new System.Windows.Forms.TextBox();
+            this.amountBox = new System.Windows.Forms.TextBox();
+            this.enterButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblHeading
@@ -71,11 +75,45 @@
             this.lblAmount.TabIndex = 3;
             this.lblAmount.Text = "Amount";
             // 
+            // invoiceBox
+            // 
+            this.invoiceBox.Location = new System.Drawing.Point(177, 55);
+            this.invoiceBox.Name = "invoiceBox";
+            this.invoiceBox.Size = new System.Drawing.Size(100, 20);
+            this.invoiceBox.TabIndex = 4;
+            // 
+            // nameBox
+            // 
+            this.nameBox.Location = new System.Drawing.Point(177, 81);
+            this.nameBox.Name = "nameBox";
+            this.nameBox.Size = new System.Drawing.Size(100, 20);
+            this.nameBox.TabIndex = 5;
+            // 
+            // amountBox
+            // 
+            this.amountBox.Location = new System.Drawing.Point(177, 107);
+            this.amountBox.Name = "amountBox";
+            this.amountBox.Size = new System.Drawing.Size(100, 20);
+            this.amountBox.TabIndex = 6;
+            // 
+            // enterButton
+            // 
+            this.enterButton.Location = new System.Drawing.Point(202, 146);
+            this.enterButton.Name = "enterButton";
+            this.enterButton.Size = new System.Drawing.Size(75, 23);
+            this.enterButton.TabIndex = 7;
+            this.enterButton.Text = "Enter record";
+            this.enterButton.UseVisualStyleBackColor = true;
+            // 
             // EnterInvoices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(289, 207);
+            this.Controls.Add(this.enterButton);
+            this.Controls.Add(this.amountBox);
+            this.Controls.Add(this.nameBox);
+            this.Controls.Add(this.invoiceBox);
             this.Controls.Add(this.lblAmount);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblNumber);
@@ -93,6 +131,10 @@
         private System.Windows.Forms.Label lblNumber;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblAmount;
+        private System.Windows.Forms.TextBox invoiceBox;
+        private System.Windows.Forms.TextBox nameBox;
+        private System.Windows.Forms.TextBox amountBox;
+        private System.Windows.Forms.Button enterButton;
     }
 }
 
