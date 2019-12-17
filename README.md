@@ -9,7 +9,7 @@ C# Programming Chapter 14
 - [X] - Guided - ViewInvoices
 - [X] - 1 - TestFileAndDirectory
 - [X] - 3 - TestFileAndDirectory2
-- [ ] - 4 - WriteCustomerRecords
+- [X] - 4 - WriteCustomerRecords
 - [ ] - 5 - CustomizeAForm
 - [ ] - 6 - RetrieveCustomizedForm
 - [ ] - ~~7 - HighScore~~
