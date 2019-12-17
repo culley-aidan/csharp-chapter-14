@@ -13,6 +13,8 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
+            writer.Close();
+            outFile.Close();
             if (disposing && (components != null))
             {
                 components.Dispose();
@@ -104,6 +106,7 @@
             this.enterButton.TabIndex = 7;
             this.enterButton.Text = "Enter record";
             this.enterButton.UseVisualStyleBackColor = true;
+            this.enterButton.Click += new System.EventHandler(this.enterButton_Click);
             // 
             // EnterInvoices
             // 
