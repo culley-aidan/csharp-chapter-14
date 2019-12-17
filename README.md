@@ -12,4 +12,4 @@ C# Programming Chapter 14
 - [ ] - 4 - WriteCustomerRecords
 - [ ] - 5 - CustomizeAForm
 - [ ] - 6 - RetrieveCustomizedForm
-- [ ] - 7 - HighScore
+- [ ] - ~~7 - HighScore~~
