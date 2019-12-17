@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace ReadCustomerRecords
 {
@@ -6,7 +7,12 @@ namespace ReadCustomerRecords
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FileStream file = new FileStream("..\\..\\..\\..\\..\\WriteCustomerRecords\\WriteCustomerRecords\\Customers.txt", FileMode.Open, FileAccess.Read);
+            StreamReader reader = new StreamReader(file);
+            Console.Write("customer information: ");
+            Console.Write(reader.ReadLine());
+            file.Close();
+            reader.Close();
         }
     }
 }
