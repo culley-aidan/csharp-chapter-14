@@ -4,7 +4,7 @@ C# Programming Chapter 14
 ## TODO 
 - [X] - Guided - CreateNameFile
 - [X] - Guided - ReadFileName 
-- [ ] - Guided - AccessSomeNames
+- [X] - Guided - AccessSomeNames
 - [ ] - Guided - EnterInvoices 
 - [ ] - Guided - ViewInvoices
 - [ ] - 1 - TestFileAndDirectory
