@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindCustomerRecords2", "FindCustomerRecords2\FindCustomerRecords2.csproj", "{F0B08649-2ED6-4BEC-BA85-0AEC134DDF7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0B08649-2ED6-4BEC-BA85-0AEC134DDF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B08649-2ED6-4BEC-BA85-0AEC134DDF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B08649-2ED6-4BEC-BA85-0AEC134DDF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B08649-2ED6-4BEC-BA85-0AEC134DDF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DFEA930-FE21-4031-9F8E-5F9372BAF931}
+	EndGlobalSection
+EndGlobal

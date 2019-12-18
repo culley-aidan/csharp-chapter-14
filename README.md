@@ -10,6 +10,6 @@ C# Programming Chapter 14
 - [X] - 1 - TestFileAndDirectory
 - [X] - 3 - TestFileAndDirectory2
 - [X] - 4 - WriteCustomerRecords
-- [ ] - 5 - CustomizeAForm
-- [ ] - 6 - RetrieveCustomizedForm
+- [X] - 5 - CustomizeAForm
+- [X] - 6 - RetrieveCustomizedForm
 - [ ] - ~~7 - HighScore~~
