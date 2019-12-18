@@ -1,5 +1,5 @@
 ﻿namespace RetrieveCustomizedForm {
-    partial class Form1 {
+    partial class RetrieveCustomizedForm {
         /// <summary>
         /// Required designer variable.
         /// </summary>

@@ -10,8 +10,8 @@ using System.Windows.Forms;
 using System.IO;
 
 namespace RetrieveCustomizedForm {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class RetrieveCustomizedForm : Form {
+        public RetrieveCustomizedForm() {
             InitializeComponent();
 
             var lines = File.ReadLines(@"\\FRANCISTUTTLE.EDU\Home\Student\IT\se1028304\My Documents\custom_form.txt");

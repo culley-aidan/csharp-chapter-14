@@ -17,7 +17,7 @@ namespace CustomizeAForm
             => InitializeComponent();
         private void btnSave_Click(object sender, EventArgs e) 
         {
-            StreamWriter file = new StreamWriter(@"..\\..\\..\\Settings.txt");
+            StreamWriter file = new StreamWriter(@"..\\..\\..\\..\\..\\CustomizeAForm\\CustomizeAForm\\Settings.txt");
             if (colorListBox.SelectedItem.ToString() != "" && maskedWidth.Text != "" && maskedHeight.Text != "" && txtTitle.Text != "") {
                 file.WriteLine(colorListBox.SelectedItem);
                 file.WriteLine(maskedWidth.Text + "," + maskedHeight.Text);
